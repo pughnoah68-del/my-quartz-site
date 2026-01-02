@@ -5,9 +5,11 @@ title: "Hello World"
 My first series of posts will build to a result Nathaniel Strout, Lars Olsen and I proved about a set of very interesting functions, which will be introduced along the way.
 
 
-The story begins with the Alexandrov-Hausdorff theorem. I had never heard of Alexandrov before coming across this theorem, and his MacTutor article makes for an interesting read. Setting off alarm bells, there is a quote about his swimming habits: 'Every day Aleksandrov and Urysohn swam across the Rhine - a feat that was far from being safe and provoked Hausdorff's displeasure'. Wikipedia claims they were swimming together in Batz-sur-Mer when Urysohn drowned!
-$$ \textbf{\textit{Theorem (Alexandrov, Hausdorff)}.}$$ 
+The story begins with the Alexandrov-Hausdorff theorem. I had never heard of Alexandrov before coming across this theorem, and [his MacTutor article](https://mathshistory.st-andrews.ac.uk/Biographies/Aleksandrov/) makes for an interesting read. Setting off alarm bells, there is a quote about his swimming habits: 'Every day Aleksandrov and Urysohn swam across the Rhine - a feat that was far from being safe and provoked Hausdorff's displeasure'. Wikipedia claims they were swimming together in Batz-sur-Mer when Urysohn drowned!
+
+$$ \textbf{\textit{Theorem (Alexandrov, Hausdorff)}}$$ 
 $$\textit{Every compact metrizable space is the continuous image of the Cantor set } \mathfrak{C}.$$
+
 Kechris’s Descriptive Set Theory gives a very neat proof, but makes use of some helpful preliminaries:
 
 Let $X$ our compact metrizable space be given. We may assume $X$ has some metric $d$ with image contained in $[0,1]$. From a standard fact of topology, every compact metric space is separable, so we may find some countable dense set $ (x_n)_{n \in \mathbb{N}}$.
@@ -20,4 +22,4 @@ So bringing these together we have a continuous surjection from $ g^{-1}(F)$ ont
 In my next post, I will discuss how Benyamini goes on to explore some interesting and counter-intuitive consequences of this theorem, which will hopefully shock the reader as much as it did Nathaniel, Lars and I.
 
 
-In a fun related note, Dreher and Samuel in arXiv:1303.3810v2 [math.DS] give a countable compact space which is not a continuous image of $ \mathfrak{C}$. I think before having a look, one should dust off Counterexamples in Topology and play around for a while.
+In a fun related note, Dreher and Samuel in [arXiv:1303.3810v2](https://arxiv.org/pdf/1303.3810) give a countable compact space which is not a continuous image of $ \mathfrak{C}$. I think before having a look, one should dust off Counterexamples in Topology and play around for a while.
