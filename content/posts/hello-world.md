@@ -1,5 +1,5 @@
 ---
-title: "Hello World"
+title: "Interpolating Functions I"
 ---
 
 My first series of posts will build to a result Nathaniel Strout, Lars Olsen and I proved about a set of very interesting functions, which will be introduced along the way.
@@ -15,7 +15,7 @@ Kechris’s Descriptive Set Theory gives a very neat proof, but makes use of som
 Let $X$ our compact metrizable space be given. We may assume $X$ has some metric $d$ with image contained in $[0,1]$. From a standard fact of topology, every compact metric space is separable, so we may find some countable dense set $ (x_n)_{n \in \mathbb{N}}$.
 
 We now need to define some important maps. First define $ f:X \rightarrow [0,1]^{\mathbb{N}}$ where $f(x) = (d(x,x_n))_{n \in \mathbb{N} } $. This map is continuous and injective, so $ X \cong im(f):= F$.
-Then there is the surjective map $ g': \mathfrak{C} \rightarrow [0,1]$ where $ g'(a)= \sum_{n \in \mathbb{N}} 2^{-n-1}a_n$ where $ a=0.a_{1}a_{2}...$ in base 3. The function$ g'$ can be viewed as taking an element’s base 3 representation and pretending that it was a base 2 representation. Now $ g'$ can be extended to a surjective map $ g: \mathfrak(C)^{\mathbb{N}} \rightarrow [0,1]^{\mathbb{N}}$, and we can note $\mathfrak(C)^{ \mathbb{N} } \cong \mathfrak(C)$.
+Then there is the surjective map $ g': \mathfrak{C} \rightarrow [0,1]$ where $ g'(a)= \sum_{n \in \mathbb{N}} 2^{-n-1}a_n$ where $ a=0.a_{1}a_{2}...$ in base 3. The function$ g'$ can be viewed as taking an element’s base 3 representation and pretending that it was a base 2 representation. Now $ g'$ can be extended to a surjective map $ g: \mathfrak{C}^{\mathbb{N}} \rightarrow [0,1]^{\mathbb{N}}$, and we can note $\mathfrak{C}^{ \mathbb{N} } \cong \mathfrak{C}$.
 So bringing these together we have a continuous surjection from $ g^{-1}(F)$ onto $X$. Thus, we will be done if we can show $ g^{-1}(F) \subseteq \mathfrak{C}$ admits a retraction. Kechris gives a more general version of this result using trees, but there is a nice idea for this closed subspaces of $\mathfrak{C}$: For each $ x \in \mathfrak{C}$ there is some unique $k_x \in K$ such that $ d(x,k_x) = d(x,K)$. The map $x \mapsto k_x$ is then our desired retraction. $\square$
 
 

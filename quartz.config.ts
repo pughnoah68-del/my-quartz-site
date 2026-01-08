@@ -71,7 +71,16 @@ const config: QuartzConfig = {
       Plugin.TableOfContents(),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
-      Plugin.Latex({ renderEngine: "katex" }),
+      Plugin.Latex({
+        renderEngine: "katex",
+        macros: {
+          "\\R": "\\mathbb{R}",
+          "\\N": "\\mathbb{N}",
+          "\\Z": "\\mathbb{Z}",
+          "\\Q": "\\mathbb{Q}",
+          "\\C": "\\mathbb{C}",
+        },
+      }),
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [
@@ -95,4 +104,3 @@ const config: QuartzConfig = {
 }
 
 export default config
-
