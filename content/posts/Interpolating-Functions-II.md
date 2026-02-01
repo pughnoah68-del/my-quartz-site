@@ -1,6 +1,8 @@
 ---
 title: "Interpolating Functions II"
 ---
+01/02/2026
+
 
 In my previous post we discussed the Alexandrov-Hausdorff theorem, so we are now ready for Benyamini's beautiful paper ['Applications of the Universal Surjectivity of the Cantor Set'](https://www.jstor.org/stable/2589212?origin=JSTOR-pdf&seq=1). I first met this paper when it was referenced by Bayart and Quarta in a paper we will discuss later.
 
