@@ -4,10 +4,10 @@ title: "Interpolating Functions II"
 
 In my previous post we discussed the Alexandrov-Hausdorff theorem, so we are now ready for Benyamini's beautiful paper ['Applications of the Universal Surjectivity of the Cantor Set'](https://www.jstor.org/stable/2589212?origin=JSTOR-pdf&seq=1). I first met this paper when it was referenced by Bayart and Quarta in a paper we will discuss later.
 
-From here we will say a function $g:\mathbb{R} \rightarrow \R$ is $X$-universal (For $X \subseteq l^{\infty}$) if $\forall (x_n)_{n \in \N} \in X$ there is some $t \in \R$ such that $g(t+n) = x_n$ for all $n \in \N$.  
+From here we will say a function $g:\mathbb{R} \rightarrow \R$ is $X$-universal (For $X \subseteq l^{\infty}$) if for all (x_n)_{n \in \N} \in X$ there is some $t \in \R$ such that $g(t+n) = x_n$ for all $n \in \N$.  
 
 $$ \textbf{\textit{Theorem (Benyamini)}}$$ 
-$$\textit{There exists a continuous} l_{\infty}-\textit{universal function} g:\R \rightarrow \R$$
+$$\textit{There exists a continuous } l_{\infty}-\textit{universal function} g:\R \rightarrow \R$$
 We will follow Benyamini's proof. Importantly, we will take $\mathfrak{C}$ as a subset of [0,$\frac{1}{2}$].
 
 Define $K = \prod_{n \in \N}[-n,n]$. The space $K$ is a countable product of compact metric spaces, so is compact and metrizable. Now by the Alexandrov-Hausdorff Theorem (See my previous post) we get some continuous surjection $\phi: \mathfrak{C} \rightarrow K$. 
