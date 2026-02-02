@@ -1,6 +1,7 @@
 ---
 title: "Interpolating Functions I"
 ---
+20/01/2026
 
 My first series of posts will build to a result Nathaniel Strout, Lars Olsen and I proved about a set of very interesting functions, which will be introduced along the way.
 
