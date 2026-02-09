@@ -13,6 +13,7 @@ The technical term for this is that $U$ is maximally lineable in $C(\R)$, so in 
 Thankfully, in a topological sense, $U$ is absolutely tiny!
 
 $$ \textbf{\textit{Theorem (Olsen, Pugh, Strout)}}$$ 
+
 $$ U \textit{is nowhere dense in the metric space } C(\R)$$
 
 The proof is technical, but our preprint can be found [here](https://arxiv.org/abs/2602.06752). We still do not know whether $U$ is small or large in a measure-theoretic sense, and we don't know how universal functions interact with each other: If $f \in U$ it is clear that $f+1 \in U$, but what about $f+sin$, or $f+g$ where $g \notin  span(1)$ - f? There has been little published on universal functions so far, but it would be nice to have some of these basic questions answered. 
