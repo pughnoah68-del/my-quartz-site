@@ -3,7 +3,7 @@ title: "Interpolating Functions I"
 ---
 20/01/2026
 
-My first series of posts will build to a result Nathaniel Strout, Lars Olsen and I proved about a set of very interesting functions, which will be introduced along the way.
+My first series of posts will build to a result Nathaniel Strout, Lars Olsen and I proved about a set of very interesting functions, which will be introduced along the way. 
 
 
 The story begins with the Alexandrov-Hausdorff theorem. I had never heard of Alexandrov before coming across this theorem, and [his MacTutor article](https://mathshistory.st-andrews.ac.uk/Biographies/Aleksandrov/) makes for an interesting read. Setting off alarm bells, there is a quote about his swimming habits: 'Every day Aleksandrov and Urysohn swam across the Rhine - a feat that was far from being safe and provoked Hausdorff's displeasure'. Wikipedia claims they were swimming together in Batz-sur-Mer when Urysohn drowned!
