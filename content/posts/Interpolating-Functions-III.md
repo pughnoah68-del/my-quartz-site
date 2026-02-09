@@ -3,7 +3,7 @@ title: "Interpolating Functions III"
 ---
 08/02/2026
 
-In my previous post we saw Benyamini's construction of a $l_{\infty}$-universal function. From here write $U$ for the set of $l_{\infty}$-universal functions. These functions are very wild, so one might think there are not very many of them. I was certainly shocked to find the following result of Bayart and Quarta:
+In my previous post we saw Benyamini's construction of a $l_{\infty}$-universal function. From here write $U$ for the set of $l^{\infty}$-universal functions. These functions are very wild, so one might think there are not very many of them. I was certainly shocked to find the following result of Bayart and Quarta:
 
 $$ \textbf{\textit{Theorem (Bayart,Quarta)}}$$ 
 $$U \textit{contains a linear subspace (except for the zero function) of dimension } 2^{\omega}$$
